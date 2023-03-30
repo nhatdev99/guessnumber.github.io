@@ -17,7 +17,7 @@ form.addEventListener('submit', (event) => {
         alert.classList.add("alert-success");
         setTimeout(function myFunction2() {
             document.getElementById("alert").style.display = 'none';
-        }, 1000)
+        }, 2000)
     } else if (guess > secretNumber) {
         // Hiển thị thông báo số nhập vào quá cao
         document.getElementById("alert").style.display = 'block';
@@ -28,7 +28,7 @@ form.addEventListener('submit', (event) => {
         alert.classList.add("alert-danger");
         setTimeout(function myFunction2() {
             document.getElementById("alert").style.display = 'none';
-        }, 1000)
+        }, 2000)
     } else {
         // Hiển thị thông báo số nhập vào quá thấp
         document.getElementById("alert").style.display = 'block';
@@ -39,7 +39,7 @@ form.addEventListener('submit', (event) => {
         alert.classList.add("alert-warning");
         setTimeout(function myFunction2() {
             document.getElementById("alert").style.display = 'none';
-        }, 1000)
+        }, 2000)
     }
 });
 
