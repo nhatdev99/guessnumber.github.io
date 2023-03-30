@@ -34,12 +34,7 @@
     transition: 318ms;
 }
 #playAgain:hover {
-    width: 100%;
     background-color: #E8F3D6;
-    border: none;
-    border-radius:20px;
-    padding: 10px;
-    transition: 318ms;
 }
 .guessform input:focus, .guessform button:focus {
     outline: none;
@@ -48,4 +43,13 @@
 .guessform button:hover {
     background-color: #FAAB78;
     transition: 318ms;
+}
+
+.parrentAlert {
+    width: 100%;
+}
+#alert {
+    width: 300px;
+    margin: auto;
+    transition: 500ms all;
 }
